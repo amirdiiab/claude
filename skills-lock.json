@@ -25,12 +25,6 @@
       "skillPath": "plugins/21st/skills/21st-registry/SKILL.md",
       "computedHash": "1f88727b9bfc2e21ec4caee87e8978cdf2368138ddf2c74de1631fe483bc7de4"
     },
-    "21st-ui": {
-      "source": "21st-dev/magic-mcp",
-      "sourceType": "github",
-      "skillPath": "skills/21st-ui/SKILL.md",
-      "computedHash": "9821c076881b19fe173eb789ed5b0acc7939251ce08875333b9fc1370c1a1526"
-    },
     "21st-ui-build": {
       "source": "21st-dev/claude-code-plugin",
       "sourceType": "github",
@@ -43,11 +37,11 @@
       "skillPath": "plugins/21st/skills/21st-ui-explore/SKILL.md",
       "computedHash": "cea7fb74b35f01701f0a48f7b904377d5cf70fa95393d831e64a86fd3a23af41"
     },
-    "21st-ui-review": {
-      "source": "21st-dev/claude-code-plugin",
+    "agent-browser": {
+      "source": "vercel-labs/agent-browser",
       "sourceType": "github",
-      "skillPath": "plugins/21st/skills/21st-ui-review/SKILL.md",
-      "computedHash": "5ef243e99a7c2a97eba56434e6a66cc93b4fe5687b6ef215238b13e6bb9c0f2b"
+      "skillPath": "skills/agent-browser/SKILL.md",
+      "computedHash": "dd491d53824ad9286ec950aee667098446332429a6d41fe28b4ba11f1959264c"
     },
     "ai-sdk": {
       "source": "vercel/ai",
@@ -85,17 +79,17 @@
       "skillPath": "config/skills/deep-agents-orchestration/SKILL.md",
       "computedHash": "5b039d2c10ef3bd6f6044c70c123060860dc1e1a49c0dc5cc12dde7cd67a3b75"
     },
-    "deepagents-python-quickstart": {
-      "source": "langchain-ai/langchain-skills",
-      "sourceType": "github",
-      "skillPath": "config/skills/deepagents-python-quickstart/SKILL.md",
-      "computedHash": "259306ab533cf4825a94ecc00d7d5e24e2f44055b2e4af78166db9b53a61e391"
-    },
     "deepagents-typescript-quickstart": {
       "source": "langchain-ai/langchain-skills",
       "sourceType": "github",
       "skillPath": "config/skills/deepagents-typescript-quickstart/SKILL.md",
       "computedHash": "1188ed5f28175b57c62e46bd517d61cbd9769bf6254880b5e9137f4b27ba037c"
+    },
+    "deploy-to-vercel": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/deploy-to-vercel/SKILL.md",
+      "computedHash": "d2b5bcc7c09fdb649129ffc7dd7b647ec1b155736974b974292675afd588cb39"
     },
     "design-taste-frontend": {
       "source": "Leonxlnx/taste-skill",
@@ -103,23 +97,11 @@
       "skillPath": "skills/taste-skill/SKILL.md",
       "computedHash": "6d838b246d0e35d0b53f4f23f98ba7a1dd561937e64f7d0c7553b0928e376c3e"
     },
-    "design-taste-frontend-v1": {
-      "source": "Leonxlnx/taste-skill",
-      "sourceType": "github",
-      "skillPath": "skills/taste-skill-v1/SKILL.md",
-      "computedHash": "d704ab912c4d0ca954ffa858983da755ae4cd5cad9ba22554db5557382f5bd34"
-    },
     "ecosystem-primer": {
       "source": "langchain-ai/langchain-skills",
       "sourceType": "github",
       "skillPath": "config/skills/ecosystem-primer/SKILL.md",
       "computedHash": "cdcbe9115ec444518fc963fa1a5425aacad984f2b03c5e56980e4f9ad3888bc1"
-    },
-    "eval-engineering": {
-      "source": "langchain-ai/langchain-skills",
-      "sourceType": "github",
-      "skillPath": "config/skills/eval-engineering/SKILL.md",
-      "computedHash": "c0c88a41e1e1bb9bccc01dac78efa6e34538cbad3f6a60a1226fef8a611ebac3"
     },
     "full-output-enforcement": {
       "source": "Leonxlnx/taste-skill",
@@ -133,23 +115,11 @@
       "skillPath": "skills/google-agents-cli-eval/SKILL.md",
       "computedHash": "2337add99f0cbd94b5281e22cee877d768590919c43a4a4ac882adf913a5eb34"
     },
-    "gpt-taste": {
-      "source": "Leonxlnx/taste-skill",
-      "sourceType": "github",
-      "skillPath": "skills/gpt-tasteskill/SKILL.md",
-      "computedHash": "cc8f0c601d8240a124e1d11634351a2be7b8a72fd807c75e5b6bf7afcd5ddee0"
-    },
     "high-end-visual-design": {
       "source": "Leonxlnx/taste-skill",
       "sourceType": "github",
       "skillPath": "skills/soft-skill/SKILL.md",
       "computedHash": "7db385e4c5370e5a7fca9704a1361b056e4504ea6a03924bb86f33a4f00b5c73"
-    },
-    "image-to-code": {
-      "source": "Leonxlnx/taste-skill",
-      "sourceType": "github",
-      "skillPath": "skills/image-to-code-skill/SKILL.md",
-      "computedHash": "58517b03b2a01f4c9ba65861559d03df931400871bbc200978c975b24bb92c73"
     },
     "imagegen-frontend-mobile": {
       "source": "Leonxlnx/taste-skill",
@@ -186,12 +156,6 @@
       "sourceType": "github",
       "skillPath": "config/skills/langchain-middleware/SKILL.md",
       "computedHash": "f8b6897ba1f027d56ff9fffa72d4d27d8e048232fe1e1c13e219df98969d55b0"
-    },
-    "langchain-python-quickstart": {
-      "source": "langchain-ai/langchain-skills",
-      "sourceType": "github",
-      "skillPath": "config/skills/langchain-python-quickstart/SKILL.md",
-      "computedHash": "2249f725655e4f5d3f76e8bfab1fdc15b2dfa704bd42eacc55be1b9273cabe69"
     },
     "langchain-rag": {
       "source": "langchain-ai/langchain-skills",
@@ -234,12 +198,6 @@
       "sourceType": "github",
       "skillPath": "config/skills/langgraph-persistence/SKILL.md",
       "computedHash": "0e14611b0310a7a30e9977ba99b00a11b7ea63ebdd7b0c490d03040349ead0ed"
-    },
-    "langgraph-python-quickstart": {
-      "source": "langchain-ai/langchain-skills",
-      "sourceType": "github",
-      "skillPath": "config/skills/langgraph-python-quickstart/SKILL.md",
-      "computedHash": "86548f132067cd75586c970250a6bfc145045d0e0495f7d7dd60c065373ba65e"
     },
     "langgraph-typescript-quickstart": {
       "source": "langchain-ai/langchain-skills",
@@ -361,12 +319,6 @@
       "skillPath": "skills/redesign-skill/SKILL.md",
       "computedHash": "b405eee0e0e80fc243f731d9aa368bca307e356db7e6157d27101d369dac6726"
     },
-    "stitch-design-taste": {
-      "source": "Leonxlnx/taste-skill",
-      "sourceType": "github",
-      "skillPath": "skills/stitch-skill/SKILL.md",
-      "computedHash": "13322f38406cd3abf16ba45e35bdc9b18002d0153a79b4612b97aefc65d5a335"
-    },
     "swarm": {
       "source": "langchain-ai/langchain-skills",
       "sourceType": "github",
@@ -378,6 +330,48 @@
       "sourceType": "github",
       "skillPath": "skills/using-n8n-mcp-skills/SKILL.md",
       "computedHash": "12e137532c3bb4335e105c6a4ff0a714bb016d0156ccbe0689712204f875ae82"
+    },
+    "vercel-cli-with-tokens": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/vercel-cli-with-tokens/SKILL.md",
+      "computedHash": "a2f596ac516fe8986386f9562f4c94604af9fb6a0fc417d263cbe6dc05117b72"
+    },
+    "vercel-composition-patterns": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/composition-patterns/SKILL.md",
+      "computedHash": "f98931159fa9c7fed043bcd18a891a46dcf89ababa38df13a4c5b7b30dc0ce07"
+    },
+    "vercel-optimize": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/vercel-optimize/SKILL.md",
+      "computedHash": "9d4ace02972b9b1c462f097c7322eb32c9f04bba6f2fb5cf482086d402eeec33"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/react-best-practices/SKILL.md",
+      "computedHash": "3219a1944e404ffc14d1d9d6aef6dd2e3855b81387ee0a044ccbfe14d34c2357"
+    },
+    "vercel-react-view-transitions": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/react-view-transitions/SKILL.md",
+      "computedHash": "73fddafed488c308ee0799178432801fe10aa338451948ea05f4200541053040"
+    },
+    "web-design-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/web-design-guidelines/SKILL.md",
+      "computedHash": "a6a44d5498f7e8f68289902f3dedfc6f38ae0cee1e96527c80724cf27f727c2a"
+    },
+    "writing-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/writing-guidelines/SKILL.md",
+      "computedHash": "e90462d4f801d823603b12c345ad0ff91a7489415274432681d21c7129123c26"
     }
   }
 }
